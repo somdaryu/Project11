@@ -12,6 +12,13 @@ public class Quiz5 {
 		for(int i=maxLength; i>=0; i--) {
 			System.out.print(str.charAt(i));
 		}
+		
+		System.out.println();
+		
+		//StringBuilder클래스 사용
+		StringBuilder builder = new StringBuilder(str);
+		builder.reverse();
+		System.out.println(builder.toString());
 
 	}
 
